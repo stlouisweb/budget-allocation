@@ -1,0 +1,19 @@
+{
+  "name": "budget",
+  "version": "0.1.0",
+  "description": "Calculate an expense allocation or budget for a department or group of employees, given the hierarchical structure of employee positions the group.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stlouisweb/budget.git"
+  },
+  "author": "Jeremy Plack <stlouisweb@gmail.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/stlouisweb/budget/issues"
+  },
+  "homepage": "https://github.com/stlouisweb/budget#readme"
+}
