@@ -1,5 +1,5 @@
 {
-  "name": "budget-allocator",
+  "name": "budgetallocator",
   "version": "0.1.0",
   "description": "Calculate an expense allocation or budget for a department or group of employees, given the hierarchical structure of employee positions the group.",
   "main": "index.js",
