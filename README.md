@@ -7,9 +7,9 @@ A small JavaScript library to calculate a group or departments' monthly expense 
 
 ## Usage
 
-	var budget-allocator = require('budget-allocator');
+	var budgetallocator = require('budgetallocator');
 	var group = {group object}
-	var budget = budget-allocator.calculateGroup(group);
+	var budget = budgetallocator.calculateGroup(group);
 
 	console.log(budget);
 
@@ -37,16 +37,16 @@ Sample group object:
 ### Calculate Department Allocation
 You can use the `calculateDepartment` method, passing in an array of group objects, to calculate the expense allocation of a department spanning multiple groups.
 
-	var budget-allocator = require('budget-allocator');
+	var budgetallocator = require('budgetallocator');
 	var department = [{group},{group}]
-	var budget = budget-allocator.calculateDepartment(department);
+	var budget = budgetallocator.calculateDepartment(department);
 
 	console.log(budget);
 
 ### Custom Allocation
 You can specify a custom allocation object, to create your own positions and values. The keys are the position titles and the values are the expense allocation values.
 
-	var budget-allocator = require('budget-allocator');
+	var budgetallocator = require('budgetallocator');
 	var allocation = {
 	  "DevOps Engineer": 1000,
 	  "Archeitect": 800
@@ -58,7 +58,7 @@ You can specify a custom allocation object, to create your own positions and val
 	    "position": "DevOps Engineer"
 	  }
 	}
-	var budget = budget-allocator.calculateGroup(group, allocation);
+	var budget = budgetallocator.calculateGroup(group, allocation);
 
 	console.log(budget);
 
