@@ -14,8 +14,9 @@ A small JavaScript library to calculate a group or departments' monthly expense 
 	console.log(budget);
 
 Sample group object:
+	
 	{
-		"Manager Jim": {
+	      	"Manager Jim": {
 			"position": "Manager",
 			"reports": {
 				"Manager Bill": {
@@ -35,4 +36,4 @@ Sample group object:
 
 ## Testing
 
-Execute `npm test` in the terminal to run the test suite. Tests can be found in the test/ directory. This project uses Mocha and Chai.
+Execute `npm test` in the terminal to run the test suite. Tests can be found in the test/ directory. This project uses [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/).
