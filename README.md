@@ -3,7 +3,7 @@
 A small JavaScript library to calculate a group or departments' monthly expense allocation given the allocation values and organizational hierarchy.
 
 ## Installation
-  npm install budget-allocator --save
+  `npm install git://github.com/stlouisweb/budget-allocation.git`
 
 ## Usage
 
