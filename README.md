@@ -33,6 +33,35 @@ Sample group object:
 			}
 		}
 	}
+	
+### Calculate Department Allocation
+You can use the `calculateDepartment` method, passing in an array of group objects, to calculate the expense allocation of a department spanning multiple groups.
+
+	var budget-allocator = require('budget-allocator');
+	var department = [{group},{group}]
+	var budget = budget-allocator.calculateDepartment(department);
+
+	console.log(budget);
+
+### Custom Allocation
+You can specify a custom allocation object, to create your own positions and values. The keys are the position titles and the values are the expense allocation values.
+
+	var budget-allocator = require('budget-allocator');
+	var allocation = {
+	  "DevOps Engineer": 1000,
+	  "Archeitect": 800
+	var group = {
+	  "Archeitect John" {
+	    "position": "Archeitect"
+	  },
+	  "DevOps Jeremy" {
+	    "position": "DevOps Engineer"
+	  }
+	}
+	var budget = budget-allocator.calculateGroup(group, allocation);
+
+	console.log(budget);
+
 
 ## Testing
 
