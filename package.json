@@ -4,7 +4,7 @@
   "description": "Calculate an expense allocation or budget for a department or group of employees, given the hierarchical structure of employee positions the group.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/stlouisweb/budget/issues"
   },
-  "homepage": "https://github.com/stlouisweb/budget#readme"
+  "homepage": "https://github.com/stlouisweb/budget#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
 }
